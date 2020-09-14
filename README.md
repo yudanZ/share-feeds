@@ -8,7 +8,7 @@ https://yudan.ch/shareboard/
 # DataBase Structure
 
 Database: `shareboard`
-
+<code>
 CREATE TABLE `shares` (
   `id` int(11) PRIMARY KEY NOT NULL,
   `user_id` int(11) NOT NULL,
@@ -27,5 +27,5 @@ CREATE TABLE `users` (
   `register_date` datetime NOT NULL DEFAULT current_timestamp()
 ) 
 
-
+</code>
 
